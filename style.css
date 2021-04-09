@@ -194,6 +194,10 @@ section {
     color: black;
 }
 
+.github{
+    position: relative;
+}
+
 .footer{
     clear: both;
     width: 94.8%;
