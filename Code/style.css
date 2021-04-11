@@ -1,9 +1,13 @@
 html {
     font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
 }
-
-.head {
+.navbar{
     position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+}
+.head {
     top: 0;
     left: 0;
     z-index: 5;
@@ -45,16 +49,21 @@ section {
 }
 
 #personal-info div {
-    width: 20%;
+    text-align: center;
+    width: 100%;
     height: 250px;
     float: left;
+    margin-bottom: 7ex;
+}
+
+#personal-info hr{
+    width: 40%;
 }
 
 #personal-info .image {
-    height: 210px;
-    margin: 60px 20px 20px 20px;
-    position: relative;
-    left: 2%;
+    margin: auto;
+    display: block;
+    height: 28ex;
 }
 
 #personal-info a {
@@ -67,20 +76,28 @@ section {
     text-decoration: underline;
 }
 
+#skills{
+    text-align: center;
+}
+
 .progress {
     display: flex;
-    height: 1rem;
+    height: 2rem;
     overflow: hidden;
     line-height: 0;
     font-size: .75rem;
     background-color:white;
     border-radius: .25rem;
-    width: 50%;
+    width: 80%;
+    margin-left: 30ex;
 }
 
+#education{
+    text-align: center;
+}
 
 #education ul {
-    padding-inline-start: 0px;
+    padding-inline-start: 100ex;
     list-style-type: none;
 }
 
@@ -211,11 +228,11 @@ section {
     }
     
     .fa-linkedin-square {
-        font-size: 85%;
+        font-size: 3ex;
     }
     
     .fa-github {
-        font-size: 85%;
+        font-size: 3ex;
     }
     #recommendations ul li{
         clear: both;
@@ -264,4 +281,73 @@ section {
         width: 100%;
     }
 
+
 }
+
+@media only screen and (max-width: 1023px){
+    .footer{
+        width: 100%;
+        font-size: 90%;
+    }
+
+    .fa-facebook-square {
+        font-size: 85%;
+    }
+    
+    .fa-linkedin-square {
+        font-size: 3ex;
+    }
+    
+    .fa-github {
+        font-size: 3ex;
+    }
+    #recommendations ul li{
+        clear: both;
+        margin-left: 9ex;
+    }
+
+    .reco{
+        text-align: center;
+        width: 35ex;
+        margin-inline-start: -6.2ex;    }
+
+    #recommendations i{
+        font-size: 3ex;
+    }
+
+    .reco-icons{
+        margin-left: 0.2ex;
+        width: 100%;
+    }
+
+    .table-exp th ,.table-exp td{
+        font-size: 1.3ex;
+    }
+
+    .table-img{
+        height: 4ex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .progress{
+        width: 90%;
+        font-size: 70%;
+
+    }
+    #personal-info div{
+        width: 80%;
+    }
+
+    #personal-info span{
+        margin-left: 30ex;
+
+    }
+
+    .head{
+        width: 100%;
+    }
+
+
+}
+
