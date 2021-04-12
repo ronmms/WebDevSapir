@@ -7,12 +7,27 @@ html {
   z-index: 5;
   top: 0;
 }
+<<<<<<< HEAD
 .head {
   top: 0;
   left: 0;
   z-index: 5;
   width: 100%;
   background-color: #333;
+=======
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+}
+.head {
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    background-color: #333;
+>>>>>>> af7a43e86e4cbec7576581be17210a3c01e09f35
 }
 
 .head span {
@@ -49,6 +64,7 @@ section {
 }
 
 #personal-info div {
+<<<<<<< HEAD
   text-align: center;
   width: 100%;
   height: 250px;
@@ -64,6 +80,23 @@ section {
   margin: auto;
   display: block;
   height: 28ex;
+=======
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin-bottom: 7ex;
+}
+
+#personal-info hr{
+    width: 40%;
+}
+
+#personal-info .image {
+    margin: auto;
+    display: block;
+    height: 28ex;
+>>>>>>> af7a43e86e4cbec7576581be17210a3c01e09f35
 }
 
 #personal-info a {
@@ -80,7 +113,12 @@ section {
   text-align: center;
 }
 
+#skills{
+    text-align: center;
+}
+
 .progress {
+<<<<<<< HEAD
   display: flex;
   height: 2rem;
   overflow: hidden;
@@ -99,6 +137,26 @@ section {
 #education ul {
   padding-inline-start: 100ex;
   list-style-type: none;
+=======
+    display: flex;
+    height: 2rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color:white;
+    border-radius: .25rem;
+    width: 80%;
+    margin-left: 30ex;
+}
+
+#education{
+    text-align: center;
+}
+
+#education ul {
+    padding-inline-start: 100ex;
+    list-style-type: none;
+>>>>>>> af7a43e86e4cbec7576581be17210a3c01e09f35
 }
 
 #education ul li {
@@ -215,6 +273,7 @@ section {
 }
 
 .noam {
+<<<<<<< HEAD
   right: 0;
 }
 
@@ -394,4 +453,142 @@ section {
     margin-top: 20px;
     margin-right: 2px;
   }
+=======
+    right: 0;
 }
+
+@media only screen and (max-width: 767px){
+    .footer{
+        width: 98%;
+        font-size: 65%;
+    }
+
+    .fa-facebook-square {
+        font-size: 85%;
+    }
+    
+    .fa-linkedin-square {
+        font-size: 3ex;
+    }
+    
+    .fa-github {
+        font-size: 3ex;
+    }
+    #recommendations ul li{
+        clear: both;
+    }
+
+    .reco{
+        text-align: center;
+        width: 20ex;
+    }
+
+    #recommendations i{
+        font-size: 3ex;
+    }
+
+    .reco-icons{
+        margin-left: 3.3ex;
+        width: 100%;
+    }
+
+    .table-exp th ,.table-exp td{
+        width: 1%;
+        font-size: 1.3ex;
+    }
+
+    .table-img{
+        height: 4ex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .progress{
+        width: 100%;
+        font-size: 70%;
+
+    }
+    #personal-info div{
+        width: 80%;
+    }
+
+    #personal-info span{
+        margin-left: 6.5ex;
+
+    }
+
+    .head{
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1023px){
+    .footer{
+        width: 100%;
+        font-size: 90%;
+    }
+
+    .fa-facebook-square {
+        font-size: 85%;
+    }
+    
+    .fa-linkedin-square {
+        font-size: 3ex;
+    }
+    
+    .fa-github {
+        font-size: 3ex;
+    }
+    #recommendations ul li{
+        clear: both;
+        margin-left: 9ex;
+    }
+
+    .reco{
+        text-align: center;
+        width: 35ex;
+        margin-inline-start: -6.2ex;    }
+
+    #recommendations i{
+        font-size: 3ex;
+    }
+
+    .reco-icons{
+        margin-left: 0.2ex;
+        width: 100%;
+    }
+
+    .table-exp th ,.table-exp td{
+        font-size: 1.3ex;
+    }
+
+    .table-img{
+        height: 4ex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .progress{
+        width: 90%;
+        font-size: 70%;
+
+    }
+    #personal-info div{
+        width: 80%;
+    }
+
+    #personal-info span{
+        margin-left: 30ex;
+
+    }
+
+    .head{
+        width: 100%;
+    }
+
+
+>>>>>>> af7a43e86e4cbec7576581be17210a3c01e09f35
+}
+
