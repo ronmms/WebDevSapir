@@ -2,8 +2,8 @@ html {
   font-family: Arial, Helvetica, sans-serif, "Times New Roman", Times, serif;
 }
 
-body{
-  background-color:rgb(248, 249, 250);
+body {
+  background-color: rgb(248, 249, 250);
 }
 
 .navbar {
@@ -30,19 +30,7 @@ section {
 
 #personal-info hr {
   width: 40%;
-}
-
-#personal-info .image {
-  margin: auto;
-  display: block;
-  height: 28ex;
-  height: 250px;
-  margin-bottom: 7ex;
-}
-
-#personal-info hr {
-  width: 40%;
-  border-top: 1px solid rgba(0,0,0,.35);
+  border-top: 1px solid rgba(0, 0, 0, .35);
 }
 
 #personal-info .image {
@@ -54,16 +42,11 @@ section {
 
 #personal-info a {
   text-decoration: none;
-  color: blue;
+  color: rgb(73, 155, 231);
 }
 
 #personal-info a:hover {
-  color: red;
-  text-decoration: underline;
-}
-
-#skills {
-  text-align: center;
+  color: rgb(252, 89, 89);
 }
 
 #skills {
@@ -87,7 +70,6 @@ section {
 }
 
 #education ul {
-  padding-inline-start: 100ex;
   list-style-type: none;
 }
 
@@ -115,11 +97,6 @@ section {
   margin-top: 20px;
 }
 
-#work-experience {
-  text-align: center;
-  margin-left: 0;
-}
-
 .years {
   position: absolute;
   left: 0;
@@ -131,6 +108,11 @@ section {
   padding-bottom: 10px;
   margin: 0;
   text-align: center;
+}
+
+#work-experience {
+  text-align: center;
+  margin-left: 0;
 }
 
 .table-img {
@@ -186,7 +168,7 @@ section {
   background-color: gray;
   padding: 40px;
   position: relative;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .cpr {
@@ -206,7 +188,6 @@ section {
 .noam {
   right: 0;
 }
-
 
 @media only screen and (max-width: 768px) {
   .footer {
@@ -279,18 +260,15 @@ section {
     left: 28%;
     margin-top: 20px;
   }
-
-  .navbar{
+  .navbar {
     width: 100%;
   }
-
-  #education ul li:last-child{
+  #education ul li:last-child {
     margin-bottom: 12ex;
   }
-
 }
 
-@media only screen and (max-width: 1024px)  {
+@media only screen and (max-width: 1024px) {
   .footer {
     width: 100%;
     font-size: 90%;
@@ -343,10 +321,7 @@ section {
   .head {
     width: 100%;
   }
-
-  nav{
-    width: 100%;
-  }
+  
   #education ul {
     padding-inline-start: 72px;
   }
@@ -368,7 +343,7 @@ section {
   }
 }
 
-@media only screen and (min-width: 1025px) and (max-width:2500px){ 
+@media only screen and (min-width: 1025px) and (max-width:2500px) {
   #education ul {
     padding-inline-start: 35ex;
   }
@@ -377,7 +352,6 @@ section {
     margin-right: 13ex;
     margin-top: 3ex;
   }
-
   .map {
     position: absolute;
     left: 14%;
@@ -385,9 +359,7 @@ section {
     bottom: 5%;
     height: inherit;
   }
-
-  .map-text{
+  .map-text {
     left: 30%;
   }
-
 }
