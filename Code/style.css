@@ -1,59 +1,16 @@
 html {
   font-family: Arial, Helvetica, sans-serif, "Times New Roman", Times, serif;
 }
+
+body{
+  background-color:rgb(248, 249, 250);
+}
+
 .navbar {
   position: fixed;
   width: 100%;
   z-index: 5;
   top: 0;
-}
-<<<<<<< HEAD
-.navbar{
-    position: fixed;
-    width: 100%;
-    z-index: 5;
-    top: 0;
-}
-.head {
-    top: 0;
-    left: 0;
-    z-index: 5;
-    width: 100%;
-    background-color: #333;
-=======
-.head {
-  top: 0;
-  left: 0;
-  z-index: 5;
-  width: 100%;
-  background-color: #333;
->>>>>>> c968d9d9708f39e05b3c2d905a27b3bcf3463081
-}
-
-.head span {
-  float: left;
-  color: white;
-  padding: 2ex 2ex;
-  cursor: default;
-}
-
-.head ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.head li a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  padding: 2ex 2ex;
-}
-
-.head li a:hover {
-  background-color: #111;
 }
 
 section {
@@ -64,23 +21,6 @@ section {
 }
 
 #personal-info div {
-<<<<<<< HEAD
-    text-align: center;
-    width: 100%;
-    height: 250px;
-    float: left;
-    margin-bottom: 7ex;
-}
-
-#personal-info hr{
-    width: 40%;
-}
-
-#personal-info .image {
-    margin: auto;
-    display: block;
-    height: 28ex;
-=======
   text-align: center;
   width: 100%;
   height: 250px;
@@ -96,7 +36,20 @@ section {
   margin: auto;
   display: block;
   height: 28ex;
->>>>>>> c968d9d9708f39e05b3c2d905a27b3bcf3463081
+  height: 250px;
+  margin-bottom: 7ex;
+}
+
+#personal-info hr {
+  width: 40%;
+  border-top: 1px solid rgba(0,0,0,.35);
+}
+
+#personal-info .image {
+  margin: auto;
+  display: block;
+  height: 28ex;
+  border-radius: 5ex;
 }
 
 #personal-info a {
@@ -113,38 +66,18 @@ section {
   text-align: center;
 }
 
-#skills{
-    text-align: center;
+#skills {
+  text-align: center;
 }
 
 .progress {
-<<<<<<< HEAD
-    display: flex;
-    height: 2rem;
-    overflow: hidden;
-    line-height: 0;
-    font-size: .75rem;
-    background-color:white;
-    border-radius: .25rem;
-    width: 80%;
-    margin-left: 30ex;
-}
-
-#education{
-    text-align: center;
-}
-
-#education ul {
-    padding-inline-start: 100ex;
-    list-style-type: none;
-=======
   display: flex;
   height: 2rem;
   overflow: hidden;
   line-height: 0;
-  font-size: 0.75rem;
-  background-color: white;
-  border-radius: 0.25rem;
+  font-size: .75rem;
+  background-color: rgb(248, 249, 250);
+  border-radius: .25rem;
   width: 80%;
   margin-left: 30ex;
 }
@@ -156,11 +89,10 @@ section {
 #education ul {
   padding-inline-start: 100ex;
   list-style-type: none;
->>>>>>> c968d9d9708f39e05b3c2d905a27b3bcf3463081
 }
 
 #education ul li {
-  border: 1px solid gray;
+  border: 1px solid rgb(105, 105, 105);
   position: relative;
   float: left;
   margin-bottom: 100px;
@@ -185,6 +117,7 @@ section {
 
 #work-experience {
   text-align: center;
+  margin-left: 0;
 }
 
 .years {
@@ -252,7 +185,6 @@ section {
   text-align: center;
   background-color: gray;
   padding: 40px;
-  border-radius: 15px;
   position: relative;
   margin-top: 100px;
 }
@@ -262,8 +194,7 @@ section {
   left: 650px;
 }
 
-.ron,
-.noam {
+.ron, .noam {
   position: absolute;
   width: 50%;
 }
@@ -273,193 +204,46 @@ section {
 }
 
 .noam {
-<<<<<<< HEAD
-    right: 0;
-}
-
-@media only screen and (max-width: 767px){
-    .footer{
-        width: 98%;
-        font-size: 65%;
-    }
-
-    .fa-facebook-square {
-        font-size: 85%;
-    }
-    
-    .fa-linkedin-square {
-        font-size: 3ex;
-    }
-    
-    .fa-github {
-        font-size: 3ex;
-    }
-    #recommendations ul li{
-        clear: both;
-    }
-
-    .reco{
-        text-align: center;
-        width: 20ex;
-    }
-
-    #recommendations i{
-        font-size: 3ex;
-    }
-
-    .reco-icons{
-        margin-left: 3.3ex;
-        width: 100%;
-    }
-
-    .table-exp th ,.table-exp td{
-        width: 1%;
-        font-size: 1.3ex;
-    }
-
-    .table-img{
-        height: 4ex;
-        margin: 0;
-        padding: 0;
-    }
-
-    .progress{
-        width: 100%;
-        font-size: 70%;
-
-    }
-    #personal-info div{
-        width: 80%;
-    }
-
-    #personal-info span{
-        margin-left: 6.5ex;
-
-    }
-
-    .head{
-        width: 100%;
-    }
-
-
-}
-
-@media only screen and (max-width: 1023px){
-    .footer{
-        width: 100%;
-        font-size: 90%;
-    }
-
-    .fa-facebook-square {
-        font-size: 85%;
-    }
-    
-    .fa-linkedin-square {
-        font-size: 3ex;
-    }
-    
-    .fa-github {
-        font-size: 3ex;
-    }
-    #recommendations ul li{
-        clear: both;
-        margin-left: 9ex;
-    }
-
-    .reco{
-        text-align: center;
-        width: 35ex;
-        margin-inline-start: -6.2ex;    }
-
-    #recommendations i{
-        font-size: 3ex;
-    }
-
-    .reco-icons{
-        margin-left: 0.2ex;
-        width: 100%;
-    }
-
-    .table-exp th ,.table-exp td{
-        font-size: 1.3ex;
-    }
-
-    .table-img{
-        height: 4ex;
-        margin: 0;
-        padding: 0;
-    }
-
-    .progress{
-        width: 90%;
-        font-size: 70%;
-
-    }
-    #personal-info div{
-        width: 80%;
-    }
-
-    #personal-info span{
-        margin-left: 30ex;
-
-    }
-
-    .head{
-        width: 100%;
-    }
-
-
-=======
   right: 0;
 }
+
 
 @media only screen and (max-width: 768px) {
   .footer {
     width: 98%;
     font-size: 65%;
   }
-
   .fa-facebook-square {
     font-size: 85%;
   }
-
   .fa-linkedin-square {
     font-size: 3ex;
   }
-
   .fa-github {
     font-size: 3ex;
   }
   #recommendations ul li {
     clear: both;
   }
-
   .reco {
-    text-align: center;
     width: 20ex;
   }
-
   #recommendations i {
     font-size: 3ex;
   }
-
   .reco-icons {
     margin-left: 3.3ex;
     width: 100%;
   }
-
-  .table-exp th,
-  .table-exp td {
+  .table-exp th, .table-exp td {
     width: 1%;
     font-size: 1.3ex;
   }
-
   .table-img {
     height: 4ex;
     margin: 0;
     padding: 0;
   }
-
   .progress {
     width: 100%;
     font-size: 70%;
@@ -467,57 +251,59 @@ section {
   #personal-info div {
     width: 80%;
   }
-
   #personal-info span {
     margin-left: 6.5ex;
   }
-
   .head {
     width: 100%;
   }
-
   #education ul {
     padding-inline-start: 0ex;
     list-style-type: none;
   }
-
   #education ul li {
     width: 20%;
+    margin-left: 20ex;
+    margin-top: 4ex;
+    margin-bottom: 4ex;
   }
-
   .map {
     position: absolute;
     left: 6%;
     top: 4%;
     height: inherit;
   }
-
   .map-text {
     position: absolute;
     bottom: 11%;
     left: 28%;
     margin-top: 20px;
   }
+
+  .navbar{
+    width: 100%;
+  }
+
+  #education ul li:last-child{
+    margin-bottom: 12ex;
+  }
+
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px)  {
   .footer {
     width: 100%;
     font-size: 90%;
   }
-
   .navbar {
-    width: 76%;
+    width: 100%;
   }
-
   .fa-facebook-square {
     font-size: 85%;
   }
-
   .fa-linkedin-square {
     font-size: 3ex;
   }
-
   .fa-github {
     font-size: 3ex;
   }
@@ -525,32 +311,25 @@ section {
     clear: both;
     margin-left: 9ex;
   }
-
   .reco {
     text-align: center;
     width: 35ex;
-    margin-inline-start: -6.2ex;
+    margin-inline-start: -7ex;
   }
-
   #recommendations i {
     font-size: 3ex;
   }
-
   .reco-icons {
     margin-left: 0.2ex;
     width: 100%;
   }
-
-  .table-exp th,
-  .table-exp td {
+  .table-exp th, .table-exp td {
     font-size: 1.3ex;
   }
-
   .table-img {
     margin: 0;
     padding: 0;
   }
-
   .progress {
     width: 50%;
     font-size: 70%;
@@ -558,30 +337,28 @@ section {
   #personal-info div {
     width: 100%;
   }
-
   #personal-info span {
     margin-left: 30ex;
   }
-
   .head {
     width: 100%;
   }
 
-  #education ul {
-    padding-inline-start: 64px;
+  nav{
+    width: 100%;
   }
-
+  #education ul {
+    padding-inline-start: 72px;
+  }
   #education ul li {
     width: 10%;
   }
-
   .map {
     position: absolute;
     left: 6%;
     top: 4%;
     width: 88%;
   }
-
   .map-text {
     position: absolute;
     bottom: 11%;
@@ -589,6 +366,28 @@ section {
     margin-top: 20px;
     margin-right: 2px;
   }
->>>>>>> c968d9d9708f39e05b3c2d905a27b3bcf3463081
 }
 
+@media only screen and (min-width: 1025px) and (max-width:2500px){ 
+  #education ul {
+    padding-inline-start: 35ex;
+  }
+  #education ul li {
+    width: 35%;
+    margin-right: 13ex;
+    margin-top: 3ex;
+  }
+
+  .map {
+    position: absolute;
+    left: 14%;
+    top: 5%;
+    bottom: 5%;
+    height: inherit;
+  }
+
+  .map-text{
+    left: 30%;
+  }
+
+}
