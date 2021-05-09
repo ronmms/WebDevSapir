@@ -62,7 +62,7 @@
         </div>
         <img id="myImg" class="image" src="../Pictures/noam.jpg">
     </section>
-    <!--  Hi Ron I added this here -->
+    
     <div id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="modal-content" id="img01">
@@ -199,7 +199,7 @@
         </ul>
     </section>
 
-    <section id="contact-me">
+    <section id="contact-me" onkeyup="charsCount()">
         <h1>Contact me!</h1>
         <form>
             <label>Full name:</label><br>
@@ -211,13 +211,12 @@
             <label>Phone number:</label><br>
             <input type="text"><br>
             <label>Enter your message here:</label><br>
-            <textarea id="message" cols="34" rows="8" onkeyup="charsCount(this)"></textarea><br>
+            <textarea id="message" cols="34" rows="8"></textarea><br>
             <p id="remain-chars">remaining chars: 200</p>
-            <input id="submit-button" type="submit">
+            <input id="submit-button" type="submit" disabled>
         </form>
     </section>
 
-    <!--  Hi Ron I added this here -->
     <div id="scroll">
         <button onclick="scrollUp()">Scroll UP</button>
     </div>
