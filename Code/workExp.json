@@ -1,0 +1,18 @@
+[
+    {
+        "name": "TEL",
+        "adresses": "Qiryat Gat",
+        "title": "Technician",
+        "duration": "2017-2019",
+        "description": "Hi Ron",
+        "img":"https://www.tel.com/about/tel_vc/images/logoTEL.png"
+    },
+    {
+        "name": "Air force",
+        "adresses": "Ramon",
+        "title": "Electrician",
+        "duration": "2014-2017",
+        "description": "Hi Ronit",
+        "img":"https://upload.wikimedia.org/wikipedia/he/b/b1/Kanaf_25_ramon.png"
+    }
+]
